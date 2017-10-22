@@ -22,7 +22,7 @@ class School
   def sort
     # Iterate through hash
     # For each key, return value as sorted array
-    @roster.each do |grade, student_array|
+    sorted_roster = @roster.each do |grade, student_array|
       student_array.sort
     end
   end
