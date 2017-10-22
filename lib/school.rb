@@ -21,5 +21,6 @@ class School
     if student_added = false
       @roster[grade] = []
       @roster[grade] << name
+    end
   end
 end
