@@ -20,8 +20,6 @@ class School
   end
 
   def sort
-    # Iterate through hash
-    # For each key, return value as sorted array
     sorted_roster = @roster.each do |grade, student_array|
       @roster[grade] = student_array.sort
     end
