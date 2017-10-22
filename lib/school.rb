@@ -11,7 +11,7 @@ class School
   end
 
   def add_student(name, grade)
-    
+
     # student_added = false
     # @roster.each do |key, value|
     #   if key == grade
