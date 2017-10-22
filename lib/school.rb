@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    @roster.keys.sort
+    Hash[@roster.sort]
   end
 
 end
