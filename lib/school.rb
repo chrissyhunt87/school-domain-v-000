@@ -10,8 +10,13 @@ class School
     @roster = {}
   end
 
-  def add_student(name, grade)
-
+  def add_student(student, grade)
+    if @roster[grade] = nil
+      @roster[grade] = []
+    end
+    @roster[grade] << student
+    @roster  
+  end
     # student_added = false
     # @roster.each do |key, value|
     #   if key == grade
@@ -24,6 +29,6 @@ class School
     #   @roster[grade] << name
     # end
     # @roster
-  end
+
 
 end
