@@ -11,17 +11,19 @@ class School
   end
 
   def add_student(name, grade)
-    student_added = false
-    @roster.each do |key, value|
-      if key == grade
-        value << name
-        student_added = true
-      end
-    end
-    if student_added = false
-      @roster[grade] = []
-      @roster[grade] << name
-    end
-    @roster
+    
+    # student_added = false
+    # @roster.each do |key, value|
+    #   if key == grade
+    #     value << name
+    #     student_added = true
+    #   end
+    # end
+    # if student_added = false
+    #   @roster[grade] = []
+    #   @roster[grade] << name
+    # end
+    # @roster
   end
+  
 end
