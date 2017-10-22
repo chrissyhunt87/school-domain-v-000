@@ -18,5 +18,8 @@ class School
         student_added = true
       end
     end
+    if student_added = false
+      @roster[grade] = []
+      @roster[grade] << name
   end
 end
